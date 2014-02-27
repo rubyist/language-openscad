@@ -1,0 +1,4 @@
+'.source.scad':
+  'editor':
+    'increaseIndentPattern': '^.*(\\{[^}"\']*|\\([^)"\']*)$'
+    'decreaseIndentPattern': '^(.*\\*/)?\\s*(\\}|\\))([^{]*\\{)?([;,]?\\s*|\\.[^{]*|\\s*\\)[;\\s]*)$'
