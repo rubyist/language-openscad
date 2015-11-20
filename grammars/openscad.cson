@@ -85,7 +85,23 @@
     ]
   }
   {
-    'match': '\\b(abs|acos|asun|atan|atan2|ceil|cos|exp|floor|ln|log|lookup|max|min|pow|rands|round|sign|sin|sqrt|tan|str|cube|sphere|cylinder|polyhedron|scale|rotate|translate|mirror|multimatrix|color|minkowski|hull|union|difference|intersection|echo)\\b'
+    'match': '\\b(abs|acos|asin|atan|atan2|ceil|cos|exp|floor|len|let|ln|log|max|min|pow|rands|round|sign|sin|sqrt|tan)\\b'
+    'name': 'support.function.mathematical.scad'
+  }
+  {
+    'match': '\\b(circle|square|polygon|text|cube|sphere|cylinder|polyhedron)\\b'
+    'name': 'support.function.shape.scad'
+  }
+  {
+    'match': '\\b(scale|rotate|translate|resize|mirror|multimatrix|color|minkowski|hull)\\b'
+    'name': 'support.function.transformation.scad'
+  }
+  {
+    'match': '\\b(union|difference|intersection)\\b'
+    'name': 'support.function.boolean.scad'
+  }
+  {
+    'match': '\\b(echo|concat|lookup|str|chr|search|version|version_num|norm|cross|parent_module|import|linear_extrude|rotate_extrude|surface|projection|children)\\b'
     'name': 'support.function.scad'
   }
   {
