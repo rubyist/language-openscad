@@ -67,7 +67,7 @@
     'body': 'polygon(points=[${1:[0,0],[100,0],[0,100],[10,10],[80,10],[10,80]}], paths=[${2:[0,1,2],[3,4,5]}]);\n'
   'polyhedron':
     'prefix': 'poly'
-    'body': 'polyhedron(points=[${1:[0,0,0],[100,0,0],[0,100,0],[0,100,100]}], triangles=[${2:[0,1,2],[1,0,3],[0,2,3],[2,1,3]}]);'
+    'body': 'polyhedron(points=[${1:[0,0,0],[100,0,0],[0,100,0],[0,100,100]}], faces=[${2:[0,1,2],[1,0,3],[0,2,3],[2,1,3]}]);'
   'projection':
     'prefix': 'proj'
     'body': 'projection(cut=${1:true}) import_stl("${2:filename.stl}");\n'
