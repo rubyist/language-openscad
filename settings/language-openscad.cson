@@ -1,4 +1,5 @@
 '.source.scad':
   'editor':
+    'commentStart': '// '
     'increaseIndentPattern': '^.*(\\{[^}"\']*|\\([^)"\']*)$'
     'decreaseIndentPattern': '^(.*\\*/)?\\s*(\\}|\\))([^{]*\\{)?([;,]?\\s*|\\.[^{]*|\\s*\\)[;\\s]*)$'
